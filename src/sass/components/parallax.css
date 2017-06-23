@@ -1,0 +1,10 @@
+.parallax-container {
+  height: 100vh;
+  background-image: url(http://i.imgur.com/gp3e26O.jpg);
+  background-color: rgba(0, 0, 0, 0.15);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; }

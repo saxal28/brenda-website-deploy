@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: lightgray; }
+
+h1, h2, h3, .overlay-link, button, .nav-link {
+  font-family: "Roboto Slab";
+  text-transform: uppercase;
+  text-align: center;
+  color: white; }
+
+h1 {
+  font-size: 2.5em; }
+  h1.outline {
+    border: 4px solid white;
+    padding: 30px; }
+
+h3 {
+  font-size: 1.3em;
+  color: white; }
+
+.navigation-row {
+  display: flex;
+  justify-content: center;
+  /*width: 100%;*/
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.navigation-link {
+  width: 80px;
+  height: 80px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*border-radius: 50%;*/
+  box-shadow: 0 3px 6px #333;
+  margin: 10px; }
+
+.navbar {
+  z-index: 20000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; }
+  .navbar .fa {
+    font-size: 2em;
+    color: white;
+    text-shadow: 1px 2px 2px #333;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out; }
+    .navbar .fa:hover {
+      transform: rotate(-90deg); }
+  .navbar .nav-links {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    float: right;
+    background: #333;
+    padding: 10px 20px;
+    max-width: 700px; }
+    .navbar .nav-links .nav-link {
+      margin-right: 5px; }
+
+.overlay {
+  z-index: 10000;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden; }
+
+.overlay-link {
+  margin: 20px auto;
+  padding-bottom: 10px;
+  cursor: pointer;
+  width: 250px;
+  transition: all 250ms ease;
+  border-bottom: 3px solid transparent;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #333; }
+
+.overlay-link:hover {
+  border-color: #333; }
+
+.main-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden; }
+  .main-section.half-size {
+    height: 50vh; }
+
+.content-section .content-body {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px 30px; }
+
+.gallery-section {
+  column-count: 3;
+  column-gap: 0px;
+  max-width: 1000px;
+  margin: 0 auto; }
+  .gallery-section img {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: 30px;
+    box-shadow: 0px 3px 5px #333;
+    cursor: pointer; }
+    .gallery-section img:hover {
+      box-shadow: 0px 6px 9px #333; }
+
+body::-webkit-scrollbar {
+  width: 1em; }
+
+body::-webkit-scrollbar-track {
+  background-color: lightgray; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey; }
+
+button {
+  font-size: 1.2em;
+  padding: 12px 24px;
+  border: 3px solid white;
+  border-bottom: 6px solid white;
+  background-color: rgba(0, 0, 0, 0.1);
+  outline: none;
+  cursor: pointer;
+  margin: 5px;
+  transition: 400ms all ease-in-out; }
+  button:hover {
+    background: lightgray; }
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.logo-container img {
+  -ms-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  transform: rotate(-12deg);
+  width: 350px; }
+
+.parallax-container {
+  height: 100vh;
+  background-image: url(http://i.imgur.com/gp3e26O.jpg);
+  background-color: rgba(0, 0, 0, 0.15);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
