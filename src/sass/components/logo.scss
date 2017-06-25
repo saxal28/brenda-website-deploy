@@ -1,10 +1,14 @@
 .logo-container {
 
-  img {
-    -ms-transform: rotate(7deg);
-    -webkit-transform: rotate(7deg);
-    transform: rotate(-12deg);
+  text-align: center;
 
-    width: 350px;
+  img {
+    //-ms-transform: rotate(7deg);
+    //-webkit-transform: rotate(7deg);
+    //transform: rotate(-12deg);
+    padding: 20px 0;
+    margin: 0 auto;
+
+    width: 80%;
   }
 }

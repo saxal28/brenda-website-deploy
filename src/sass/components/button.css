@@ -1,15 +1,17 @@
 button {
+  font-family: Roboto;
   font-size: 1.2em;
   padding: 12px 24px;
-  border: 3px solid white;
-  border-bottom: 6px solid white;
+  border: 2px solid white;
   background-color: rgba(0, 0, 0, 0.1);
   outline: none;
   cursor: pointer;
   margin: 5px;
   transition: 400ms all ease-in-out; }
   button:hover {
-    background: lightgray; }
+    background: lightgray;
+    color: #333;
+    border-color: #333; }
 
 .button-row {
   display: flex;

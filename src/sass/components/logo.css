@@ -1,5 +1,6 @@
-.logo-container img {
-  -ms-transform: rotate(7deg);
-  -webkit-transform: rotate(7deg);
-  transform: rotate(-12deg);
-  width: 350px; }
+.logo-container {
+  text-align: center; }
+  .logo-container img {
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 80%; }

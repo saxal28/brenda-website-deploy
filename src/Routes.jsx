@@ -8,6 +8,7 @@ import BookPartyView from "./react/sections/BookPartyView";
 import CastView from "./react/sections/CastView";
 import PackagesView from "./react/sections/PackagesView";
 import GalleryView from "./react/sections/GalleryView";
+import GalleryListView from "./react/sections/GalleryListView";
 
 
 export default class Routes extends React.Component {
@@ -16,7 +17,8 @@ export default class Routes extends React.Component {
 		return (
 			<div>
 				<Route exact path="/" component={MainView} />
-				<Route path="/gallery" component={GalleryView} />
+				<Route path="/gallery" component={GalleryView} exact/>
+				<Route path="/gallery/all" component={GalleryListView} exact />
 				<Route path="/characters" component={CharactersView}/>
 				<Route path="/cast" component={CastView}/>
 				<Route path="/packages" component={PackagesView}/>

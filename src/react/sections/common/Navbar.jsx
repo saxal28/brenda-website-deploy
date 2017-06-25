@@ -1,6 +1,7 @@
 import React from 'react';
 import MenuOverlay from "./MenuOverlay";
 import {isMobile} from "../../../util/mobileChecker";
+import {NavLink} from "react-router-dom"
 
 export default class Navbar extends React.Component {
 
@@ -20,16 +21,17 @@ export default class Navbar extends React.Component {
 			<div className="menu">
 				<div className="navbar">
 
-					{true && <i onClick={() => toggleMenuOverlay()} className="fa fa-bars" aria-hidden="true"></i>}
+					{isMobile() && <i onClick={() => toggleMenuOverlay()} className="fa fa-bars" aria-hidden="true"></i>}
 
-					{/*{!isMobile() && <div className="nav-links">*/}
-						{/*<div className="nav-link">Gallery |</div>*/}
-						{/*<div className="nav-link"> Characters |</div>*/}
-						{/*<div className="nav-link"> Cast |</div>*/}
-						{/*<div className="nav-link"> Packages |</div>*/}
-						{/*<div className="nav-link"> Book Party |</div>*/}
-						{/*<div className="nav-link">Contact</div>*/}
-					{/*</div> }*/}
+					{!isMobile() && <div className="nav-links">
+						<NavLink className="nav-link" to="/" activeClassName="active-link" exact>Home</NavLink>
+						<NavLink className="nav-link" to="/gallery" activeClassName="active-link">Gallery</NavLink>
+						<NavLink className="nav-link" to="/characters" activeClassName="active-link">Characters</NavLink>
+						<NavLink className="nav-link" to="/cast" activeClassName="active-link">Cast</NavLink>
+						<NavLink className="nav-link" to="/packages" activeClassName="active-link">Packages</NavLink>
+						<NavLink className="nav-link" to="/book-party" activeClassName="active-link">Book Party</NavLink>
+						<NavLink className="nav-link" to="/contact-us" activeClassName="active-link">Contact</NavLink>
+					</div> }
 
 				</div>
 				<MenuOverlay visible={visible} toggleMenu={toggleMenuOverlay}/>

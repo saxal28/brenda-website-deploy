@@ -1,15 +1,17 @@
-.main-section {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
+@import "../helpers/mixins";
 
-  &.half-size { height: 50vh }
+.main-section {
+
+  &.half-size { height: 10vh !important; }
+
+  &.home { @include main-section("https://firebasestorage.googleapis.com/v0/b/brenda-website.appspot.com/o/19197575_10209781557711358_825897358_o.jpg?alt=media&token=e206a910-0b30-4b69-9847-0c8ef9aa935f") }
+  &.characters { @include main-section("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg") }
+  &.cast { @include main-section("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg") }
+  &.packages { @include main-section("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg") }
+  &.book-party { @include main-section("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg") }
+  &.contact { @include main-section("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg") }
+  &.gallery { @include main-section("http://wallpapercave.com/wp/3Qj8SxR.jpg") }
+  &.gallery-list { @include main-section("http://wallpapercave.com/wp/3Qj8SxR.jpg"); height: auto }
 
 }
 
@@ -23,24 +25,59 @@
 
 }
 
-.gallery-section {
-  //margin: 0px 20px;
-  column-count: 3;
-  column-gap: 0px;
-  max-width: 1000px;
-  margin: 0 auto;
+// TODO -- for all images section
 
+.gallery-list-section {
+  column-count: 3;
+  column-gap: 10px;
+  max-width: 1000px;
+  margin: 90px auto 30px auto;
 
   img {
-    display: block;
     height: auto;
     width: 100%;
-    margin: 30px;
-    box-shadow: 0px 3px 5px #333;
-    //transition: box-shadow 200ms;
+    margin: 10px 0 0 0;
     cursor: pointer;
-
-    &:hover { box-shadow: 0px 6px 9px #333 }
+    overflow: hidden;
   }
 
+}
+
+.gallery-section {
+  width: 100%;
+  height: 90vh;
+  margin: 0 auto;
+  text-align: center;
+
+  .gallery-button {
+
+    position: fixed;
+    width: 100px;
+
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+
+    &.next{ top: 0; bottom: 0; right: 0; }
+    &.previous { top: 0; bottom: 0; left: 0; };
+
+  }
+
+  img {
+    height: 100%;
+    //max-height: 1000px;
+    //width: 100%;
+  }
+}
+
+.footer-section {
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
 }

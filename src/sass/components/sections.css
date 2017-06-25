@@ -1,32 +1,165 @@
-.main-section {
+.main-section.half-size {
+  height: 10vh !important; }
+
+.main-section.home {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/brenda-website.appspot.com/o/19197575_10209781557711358_825897358_o.jpg?alt=media&token=e206a910-0b30-4b69-9847-0c8ef9aa935f");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
-  overflow: hidden; }
-  .main-section.half-size {
-    height: 50vh; }
+  overflow: hidden;
+  position: relative; }
+
+.main-section.characters {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative; }
+
+.main-section.cast {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative; }
+
+.main-section.packages {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative; }
+
+.main-section.book-party {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative; }
+
+.main-section.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative; }
+
+.main-section.gallery {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("http://wallpapercave.com/wp/3Qj8SxR.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative; }
+
+.main-section.gallery-list {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("http://wallpapercave.com/wp/3Qj8SxR.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative;
+  height: auto; }
 
 .content-section .content-body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 10px 30px; }
 
-.gallery-section {
+.gallery-list-section {
   column-count: 3;
-  column-gap: 0px;
+  column-gap: 10px;
   max-width: 1000px;
-  margin: 0 auto; }
-  .gallery-section img {
-    display: block;
+  margin: 90px auto 30px auto; }
+  .gallery-list-section img {
     height: auto;
     width: 100%;
-    margin: 30px;
-    box-shadow: 0px 3px 5px #333;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+    overflow: hidden; }
+
+.gallery-section {
+  width: 100%;
+  height: 90vh;
+  margin: 0 auto;
+  text-align: center; }
+  .gallery-section .gallery-button {
+    position: fixed;
+    width: 100px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
     cursor: pointer; }
-    .gallery-section img:hover {
-      box-shadow: 0px 6px 9px #333; }
+    .gallery-section .gallery-button.next {
+      top: 0;
+      bottom: 0;
+      right: 0; }
+    .gallery-section .gallery-button.previous {
+      top: 0;
+      bottom: 0;
+      left: 0; }
+  .gallery-section img {
+    height: 100%; }
+
+.footer-section {
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; }

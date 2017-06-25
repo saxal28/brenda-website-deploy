@@ -5,8 +5,31 @@ export class ImageStore {
 
     constructor() {
         extendObservable(this, {
-            content: []
+            content: [],
+            image: {
+                url: "",
+                category: "default",
+                description: ""
+            },
         })
+    }
+
+    addImage(e) {
+
+        e.preventDefault()
+
+        firebase.database().ref('images').push(this.image)
+        this.image = {};
+    }
+
+    updateImage(field, e) {
+
+        switch(field) {
+            case "url":
+                console.log(field, e.target.value)
+                return this.image.url = e.target.value;
+        }
+
     }
 
     addImages(images) {

@@ -6,8 +6,14 @@ export default class MainView extends React.Component {
 		return (
 			<div>
 
-				<div className="main-section">
-					<h1 className="outline">Main Text</h1>
+				<div className="main-section home">
+					<h1 className="outlin headline">Hire A Princess!</h1>
+
+					<div className="button-row">
+						<button>Gallery</button>
+						<button>Book Now</button>
+					</div>
+
 				</div>
 
 				<div className="content-section">

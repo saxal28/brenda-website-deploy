@@ -1,32 +1,9 @@
-.navigation-row {
-  display: flex;
-  justify-content: center;
-  /*width: 100%;*/
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0; }
-
-.navigation-link {
-  width: 80px;
-  height: 80px;
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /*border-radius: 50%;*/
-  box-shadow: 0 3px 6px #333;
-  margin: 10px; }
-
 .navbar {
   z-index: 20000;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  //padding: 10px 20px;
-  //background: #333;
 
   .fa {
 
@@ -46,21 +23,20 @@
     display: flex;
     align-content: center;
     justify-content: center;
-
-    float: right;
-
-    background:#333;
-    padding: 10px 20px;
-
-    max-width: 700px;
+    //max-width: 700px;
+    padding:20px;
 
     .nav-link {
+      margin-right: 10px;
+      font-family: Roboto;
+      cursor: pointer;
+      transition: all 400ms;
+      padding-bottom: 5px;
+      border-bottom: 1px solid white;
 
-      margin-right: 5px;
-      //&:after { content : " | "; margin: 0 10px }
-      //&:last-child:after { content: "" }
+
+      &:hover { color: grey; border-color: grey; }
     }
-
   }
 
 }
