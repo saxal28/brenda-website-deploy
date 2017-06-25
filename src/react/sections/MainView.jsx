@@ -19,12 +19,15 @@ export default class MainView extends React.Component {
 				<div className="content-section">
 					<div className="content-body">
 						<h1>content-section 1</h1>
-						<p>this is text</p>
 					</div>
 				</div>
 
 				<div className="content-section">
-					<h1>content-section 1</h1>
+					<h1>content-section 2</h1>
+				</div>
+
+				<div className="footer-section">
+					<h4>footer info</h4>
 				</div>
 
 			</div>

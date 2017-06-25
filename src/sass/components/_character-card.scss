@@ -1,0 +1,44 @@
+@import "../base/colors";
+
+.character-card {
+  //max-width: 400px;
+  //width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $blue;
+
+  &:nth-of-type(1) {background: $blue}
+  &:nth-of-type(2) {background: $red}
+  &:nth-of-type(3) {background: $limegreen}
+  &:nth-of-type(4) {background: $orange}
+
+  &.mobile { flex-direction: column }
+
+  .character-card-content {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+
+    h2 {
+      padding-bottom: 10px;
+      border-bottom: 2px solid white;
+    }
+
+    p { padding: 10px }
+
+  }
+
+  .character-card-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+    box-shadow: 6px 4px 0px white;
+
+    background: grey;
+
+  }
+
+}

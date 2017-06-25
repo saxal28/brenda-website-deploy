@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Roboto;
   background: lightgray; }
 
 h1, h2, h3, .overlay-link, button, .nav-link {
@@ -14,7 +14,8 @@ h1 {
   font-size: 2.2em; }
   h1.headline {
     font-size: 2.6em;
-    font-weight: bold; }
+    font-weight: bold;
+    padding: 5px; }
 
 h3 {
   font-size: 1.3em;
@@ -23,6 +24,8 @@ h3 {
 a {
   text-decoration: none; }
 
-.active-link {
-  color: grey;
-  border-bottom: 1px solid grey !important; }
+p {
+  color: white;
+  font-family: Roboto;
+  line-height: 1.3;
+  text-align: left; }

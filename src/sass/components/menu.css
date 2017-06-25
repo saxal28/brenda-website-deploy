@@ -6,7 +6,7 @@
   right: 0; }
   .navbar .fa {
     font-size: 2em;
-    color: white;
+    color: lightgrey;
     text-shadow: 1px 2px 2px #333;
     padding: 10px;
     cursor: pointer;
@@ -26,8 +26,17 @@
       padding-bottom: 5px;
       border-bottom: 1px solid white; }
       .navbar .nav-links .nav-link:hover {
-        color: grey;
-        border-color: grey; }
+        color: lightgrey;
+        border-color: lightgrey; }
+    .navbar .nav-links .active-link {
+      color: grey;
+      border-bottom: 1px solid grey !important; }
+  .navbar .nav-logo {
+    position: fixed;
+    top: 18px;
+    right: 10px; }
+    .navbar .nav-logo img {
+      height: 30px; }
 
 .overlay {
   z-index: 10000;

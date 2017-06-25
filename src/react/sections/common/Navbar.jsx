@@ -33,6 +33,10 @@ export default class Navbar extends React.Component {
 						<NavLink className="nav-link" to="/contact-us" activeClassName="active-link">Contact</NavLink>
 					</div> }
 
+					<div className="nav-logo">
+						<img src="http://i.imgur.com/MhYhnGk.png" />
+					</div>
+
 				</div>
 				<MenuOverlay visible={visible} toggleMenu={toggleMenuOverlay}/>
 			</div>

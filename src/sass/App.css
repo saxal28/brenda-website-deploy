@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Roboto;
   background: lightgray; }
 
 h1, h2, h3, .overlay-link, button, .nav-link {
@@ -14,7 +14,8 @@ h1 {
   font-size: 2.2em; }
   h1.headline {
     font-size: 2.6em;
-    font-weight: bold; }
+    font-weight: bold;
+    padding: 5px; }
 
 h3 {
   font-size: 1.3em;
@@ -23,9 +24,11 @@ h3 {
 a {
   text-decoration: none; }
 
-.active-link {
-  color: grey;
-  border-bottom: 1px solid grey !important; }
+p {
+  color: white;
+  font-family: Roboto;
+  line-height: 1.3;
+  text-align: left; }
 
 .navbar {
   z-index: 20000;
@@ -35,7 +38,7 @@ a {
   right: 0; }
   .navbar .fa {
     font-size: 2em;
-    color: white;
+    color: lightgrey;
     text-shadow: 1px 2px 2px #333;
     padding: 10px;
     cursor: pointer;
@@ -55,8 +58,17 @@ a {
       padding-bottom: 5px;
       border-bottom: 1px solid white; }
       .navbar .nav-links .nav-link:hover {
-        color: grey;
-        border-color: grey; }
+        color: lightgrey;
+        border-color: lightgrey; }
+    .navbar .nav-links .active-link {
+      color: lightgrey;
+      border-bottom: 1px solid #524fff !important; }
+  .navbar .nav-logo {
+    position: fixed;
+    bottom: 18px;
+    right: 10px; }
+    .navbar .nav-logo img {
+      height: 30px; }
 
 .overlay {
   z-index: 10000;
@@ -245,7 +257,7 @@ a {
     height: 100%; }
 
 .footer-section {
-  background: #333;
+  background: #524fff;
   color: white;
   display: flex;
   justify-content: center;
@@ -299,3 +311,36 @@ button {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.character-card {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #524fff; }
+  .character-card:nth-of-type(1) {
+    background: #524fff; }
+  .character-card:nth-of-type(2) {
+    background: #d82d2d; }
+  .character-card:nth-of-type(3) {
+    background: #7ddd4d; }
+  .character-card:nth-of-type(4) {
+    background: #e79e43; }
+  .character-card.mobile {
+    flex-direction: column; }
+  .character-card .character-card-content {
+    max-width: 400px;
+    width: 100%;
+    text-align: center; }
+    .character-card .character-card-content h2 {
+      padding-bottom: 10px;
+      border-bottom: 2px solid white; }
+    .character-card .character-card-content p {
+      padding: 10px; }
+  .character-card .character-card-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+    box-shadow: 6px 4px 0px white;
+    background: grey; }
