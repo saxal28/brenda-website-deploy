@@ -21,7 +21,7 @@ export default class Navbar extends React.Component {
 			<div className="menu">
 				<div className="navbar">
 
-					{isMobile() && <i onClick={() => toggleMenuOverlay()} className="fa fa-bars" aria-hidden="true"></i>}
+					{isMobile() && <div className="nav-button" onClick={() => toggleMenuOverlay()} />}
 
 					{!isMobile() && <div className="nav-links">
 						<NavLink className="nav-link" to="/" activeClassName="active-link" exact>Home</NavLink>

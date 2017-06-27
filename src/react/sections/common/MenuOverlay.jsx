@@ -12,7 +12,6 @@ export default class MenuOverlay extends React.Component {
 
 				{visible &&
 					<div className="overlay">
-						<Link to="/" className="overlay-link" onClick={() => toggleMenu() }>Home</Link>
 						<Link to="/gallery" className="overlay-link" onClick={() => toggleMenu() }>Gallery</Link>
 						<Link to="/characters" className="overlay-link" onClick={() => toggleMenu() }>Characters</Link>
 						<Link to="/cast" className="overlay-link" onClick={() => toggleMenu() }>Cast</Link>

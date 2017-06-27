@@ -49,6 +49,18 @@ p {
 .navbar .fa:hover {
   transform: rotate(-90deg); }
 
+.navbar .nav-button {
+  height: 30px;
+  width: 30px;
+  border: 5px solid white;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out; }
+
+.navbar .nav-button:hover {
+  transform: rotate(-90deg);
+  border-color: black; }
+
 .navbar .nav-links {
   display: flex;
   align-content: center;
@@ -94,13 +106,13 @@ p {
   overflow: hidden; }
 
 .overlay-link {
-  margin: 20px auto;
+  margin: 15px auto;
   padding-bottom: 10px;
   cursor: pointer;
   width: 250px;
   transition: all 250ms ease;
   border-bottom: 3px solid transparent;
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-decoration: none;
   color: #333; }
 
