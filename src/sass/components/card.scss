@@ -1,0 +1,54 @@
+@import "../helpers/media_queries.scss";
+@import "../base/colors.scss";
+
+.card-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 411px;
+
+  &::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #333 !important;
+  }
+
+}
+
+.card {
+  max-width: 400px;
+  //width: 100%;
+  border: 1px solid white;
+  margin: 5px;
+  box-shadow: 0px 2px 3px black;
+  overflow: hidden;
+
+  position:relative;
+
+  .card-image {
+
+    height: 260px;
+    width: 400px;
+
+    img {   max-width: 400px; width: 100%; }
+
+  }
+
+  .card-content {
+    p {
+      text-align: center;
+    }
+  }
+
+  &.red { background: $red}
+  &.darkred { background: $darkred}
+  &.blue { background: $blue}
+  &.green { background: $green}
+  &.limegreen { background: $limegreen}
+  &.orange { background: $orange}
+
+}
