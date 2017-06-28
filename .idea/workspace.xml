@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b596cb-2ae0-49f7-9d80-c5d20c71a23e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/components/_input.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/views/contact-view.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/views/contact-view.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/react/forms/ContactForm.jsx" afterPath="$PROJECT_DIR$/src/react/forms/ContactForm.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/react/sections/ContactUsView.jsx" afterPath="$PROJECT_DIR$/src/react/sections/ContactUsView.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/react/sections/common/Card.jsx" afterPath="$PROJECT_DIR$/src/react/sections/common/Card.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/App.css" afterPath="$PROJECT_DIR$/src/sass/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/App.scss" afterPath="$PROJECT_DIR$/src/sass/App.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/base/_colors.scss" afterPath="$PROJECT_DIR$/src/sass/base/_colors.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/card.css" afterPath="$PROJECT_DIR$/src/sass/components/card.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/card.scss" afterPath="$PROJECT_DIR$/src/sass/components/card.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/sections.scss" afterPath="$PROJECT_DIR$/src/sass/components/sections.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/react/sections/common/MenuOverlay.jsx" afterPath="$PROJECT_DIR$/src/react/sections/common/MenuOverlay.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,11 +17,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sections.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sections.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/components/sections.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="205" lean-forward="false" selection-start-line="12" selection-start-column="205" selection-end-line="12" selection-end-column="205" />
+            <state relative-caret-position="180">
+              <caret line="9" column="96" lean-forward="true" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuOverlay.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/react/sections/common/MenuOverlay.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -189,7 +186,6 @@
         <option value="$PROJECT_DIR$/src/sass/helpers/media_queries.scss" />
         <option value="$PROJECT_DIR$/src/react/sections/CharactersView.jsx" />
         <option value="$PROJECT_DIR$/src/react/sections/PackagesView.jsx" />
-        <option value="$PROJECT_DIR$/src/react/sections/common/MenuOverlay.jsx" />
         <option value="$PROJECT_DIR$/src/sass/views/characters-view.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/scrollbar.scss" />
         <option value="$PROJECT_DIR$/src/sass/views/gallery-view.scss" />
@@ -207,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/react/sections/ContactUsView.jsx" />
         <option value="$PROJECT_DIR$/src/react/sections/common/Card.jsx" />
         <option value="$PROJECT_DIR$/src/sass/components/sections.scss" />
+        <option value="$PROJECT_DIR$/src/react/sections/common/MenuOverlay.jsx" />
       </list>
     </option>
   </component>
@@ -388,7 +385,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="navbar&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/react/sections/common/Navbar.jsx&#10;routes&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/Routes.jsx&#10;menu&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/react/sections/common/MenuOverlay.jsx&#10;colors&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/sass/base/_colors.scss&#10;men&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/sass/components/menu.scss&#10;nav&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/react/sections/common/Navbar.jsx&#10;button&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/sass/components/button.scss&#10;Routes&#9;null&#9;null&#10;index.html&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/public/index.html&#10;index.&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/index.js&#10;index&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/index.js&#10;dropzone&#9;null&#9;null&#10;webpack.config.dev&#9;null&#9;null&#10;web&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/node_modules/webpack-dev-server/client/webpack.config.js&#10;gallery&#9;null&#9;null&#10;webpack&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/node_modules/webpack-dev-server/client/webpack.config.js&#10;ImageStore&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="MenuO&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/react/sections/common/MenuOverlay.jsx&#10;navbar&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/react/sections/common/Navbar.jsx&#10;routes&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/Routes.jsx&#10;menu&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/react/sections/common/MenuOverlay.jsx&#10;colors&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/sass/base/_colors.scss&#10;men&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/sass/components/menu.scss&#10;nav&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/react/sections/common/Navbar.jsx&#10;button&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/sass/components/button.scss&#10;Routes&#9;null&#9;null&#10;index.html&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/public/index.html&#10;index.&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/index.js&#10;index&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/index.js&#10;dropzone&#9;null&#9;null&#10;webpack.config.dev&#9;null&#9;null&#10;web&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/node_modules/webpack-dev-server/client/webpack.config.js&#10;gallery&#9;null&#9;null&#10;webpack&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/node_modules/webpack-dev-server/client/webpack.config.js&#10;ImageStore&#9;null&#9;null" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -506,12 +503,12 @@
       <workItem from="1498177652558" duration="155000" />
       <workItem from="1498177905637" duration="12000" />
       <workItem from="1498179574936" duration="13414000" />
-      <workItem from="1498354254502" duration="31800000" />
+      <workItem from="1498354254502" duration="31886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48795000" />
+    <option name="totallyTimeSpent" value="48881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -745,14 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/react/sections/common/MenuOverlay.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/react/sections/CastView.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -947,8 +936,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/components/sections.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="205" lean-forward="false" selection-start-line="12" selection-start-column="205" selection-end-line="12" selection-end-column="205" />
+        <state relative-caret-position="180">
+          <caret line="9" column="96" lean-forward="true" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react/sections/common/MenuOverlay.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding />
         </state>
       </provider>
