@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b596cb-2ae0-49f7-9d80-c5d20c71a23e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/react/sections/common/MenuOverlay.jsx" afterPath="$PROJECT_DIR$/src/react/sections/common/MenuOverlay.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/react/sections/GalleryListView.jsx" afterPath="$PROJECT_DIR$/src/react/sections/GalleryListView.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/react/sections/common/Navbar.jsx" afterPath="$PROJECT_DIR$/src/react/sections/common/Navbar.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/App.css" afterPath="$PROJECT_DIR$/src/sass/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/App.scss" afterPath="$PROJECT_DIR$/src/sass/App.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/card.css" afterPath="$PROJECT_DIR$/src/sass/components/card.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/menu.css" afterPath="$PROJECT_DIR$/src/sass/components/menu.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/menu.scss" afterPath="$PROJECT_DIR$/src/sass/components/menu.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/scrollbar.css" afterPath="$PROJECT_DIR$/src/sass/components/scrollbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/scrollbar.scss" afterPath="$PROJECT_DIR$/src/sass/components/scrollbar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/sections.css" afterPath="$PROJECT_DIR$/src/sass/components/sections.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/sections.scss" afterPath="$PROJECT_DIR$/src/sass/components/sections.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,38 +31,28 @@
       <file leaf-file-name="sections.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/components/sections.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1400">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="560">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="53" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="card.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/components/card.scss">
+      <file leaf-file-name="characters-view.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/views/characters-view.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="3" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sass/components/menu.scss">
+      <file leaf-file-name="CharactersView.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/react/sections/CharactersView.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="59" lean-forward="false" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Card.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/react/sections/common/Card.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="300">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="21" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -64,21 +61,49 @@
       <file leaf-file-name="Navbar.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/react/sections/common/Navbar.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+            <state relative-caret-position="375">
+              <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PackagesView.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/react/sections/PackagesView.jsx">
+      <file leaf-file-name="GalleryListView.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/react/sections/GalleryListView.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="460">
+              <caret line="50" column="15" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="56" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sass/components/menu.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery-view.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/views/gallery-view.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/App.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,17 +166,14 @@
         <option value="$PROJECT_DIR$/src/react/sections/BookPartyView.jsx" />
         <option value="$PROJECT_DIR$/src/sass/components/logo.scss" />
         <option value="$PROJECT_DIR$/src/Routes.jsx" />
-        <option value="$PROJECT_DIR$/src/react/sections/GalleryListView.jsx" />
         <option value="$PROJECT_DIR$/src/react/sections/GalleryView.jsx" />
         <option value="$PROJECT_DIR$/src/sass/components/button.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_character-card.jsx" />
         <option value="$PROJECT_DIR$/src/react/sections/common/CharacterCard.jsx" />
         <option value="$PROJECT_DIR$/src/sass/base/_colors.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_character-card.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/sections.scss" />
         <option value="$PROJECT_DIR$/src/sass/base/reset.scss" />
         <option value="$PROJECT_DIR$/src/react/sections/MainView.jsx" />
-        <option value="$PROJECT_DIR$/src/sass/App.scss" />
         <option value="$PROJECT_DIR$/src/react/sections/CastView.jsx" />
         <option value="$PROJECT_DIR$/src/sass/helpers/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/sass/helpers/media_queries.scss" />
@@ -160,6 +182,12 @@
         <option value="$PROJECT_DIR$/src/react/sections/PackagesView.jsx" />
         <option value="$PROJECT_DIR$/src/react/sections/common/Card.jsx" />
         <option value="$PROJECT_DIR$/src/react/sections/common/MenuOverlay.jsx" />
+        <option value="$PROJECT_DIR$/src/sass/views/characters-view.scss" />
+        <option value="$PROJECT_DIR$/src/sass/components/scrollbar.scss" />
+        <option value="$PROJECT_DIR$/src/sass/components/sections.scss" />
+        <option value="$PROJECT_DIR$/src/sass/views/gallery-view.scss" />
+        <option value="$PROJECT_DIR$/src/sass/App.scss" />
+        <option value="$PROJECT_DIR$/src/react/sections/GalleryListView.jsx" />
         <option value="$PROJECT_DIR$/src/react/sections/common/Navbar.jsx" />
         <option value="$PROJECT_DIR$/src/sass/components/menu.scss" />
       </list>
@@ -285,7 +313,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,7 +335,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,6 +378,32 @@
               <option name="myItemId" value="react" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brenda-website-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brenda-website-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -361,7 +415,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="navbar&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/react/sections/common/Navbar.jsx&#10;menu&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/react/sections/common/MenuOverlay.jsx&#10;colors&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/sass/base/_colors.scss&#10;men&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/sass/components/menu.scss&#10;nav&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/react/sections/common/Navbar.jsx&#10;button&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/sass/components/button.scss&#10;Routes&#9;null&#9;null&#10;index.html&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/public/index.html&#10;index.&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/index.js&#10;index&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/index.js&#10;dropzone&#9;null&#9;null&#10;webpack.config.dev&#9;null&#9;null&#10;web&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/node_modules/webpack-dev-server/client/webpack.config.js&#10;gallery&#9;null&#9;null&#10;webpack&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/node_modules/webpack-dev-server/client/webpack.config.js&#10;ImageStore&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="navbar&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/react/sections/common/Navbar.jsx&#10;routes&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/Routes.jsx&#10;menu&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/react/sections/common/MenuOverlay.jsx&#10;colors&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/sass/base/_colors.scss&#10;men&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/sass/components/menu.scss&#10;nav&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/react/sections/common/Navbar.jsx&#10;button&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/sass/components/button.scss&#10;Routes&#9;null&#9;null&#10;index.html&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/public/index.html&#10;index.&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/index.js&#10;index&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/src/index.js&#10;dropzone&#9;null&#9;null&#10;webpack.config.dev&#9;null&#9;null&#10;web&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/node_modules/webpack-dev-server/client/webpack.config.js&#10;gallery&#9;null&#9;null&#10;webpack&#9;FILE&#9;file:///home/alan/Client Projects/brenda-website-2/node_modules/webpack-dev-server/client/webpack.config.js&#10;ImageStore&#9;null&#9;null" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -372,12 +426,13 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/react/react-dropzone" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sass/vendor" />
+      <recent name="$PROJECT_DIR$/src/react/react-dropzone" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -478,12 +533,12 @@
       <workItem from="1498177652558" duration="155000" />
       <workItem from="1498177905637" duration="12000" />
       <workItem from="1498179574936" duration="13414000" />
-      <workItem from="1498354254502" duration="20012000" />
+      <workItem from="1498354254502" duration="23512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37007000" />
+    <option name="totallyTimeSpent" value="40507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -518,36 +573,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sass/components/logo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-dropzone/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5240">
-          <caret line="265" column="22" lean-forward="false" selection-start-line="265" selection-start-column="22" selection-end-line="265" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1720">
-          <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-dropzone/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-dropzone/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -732,29 +757,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Routes.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/components/button.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react/sections/GalleryListView.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,14 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/helpers/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -826,36 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/sections.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/react/sections/CharactersView.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="36" column="208" lean-forward="false" selection-start-line="36" selection-start-column="208" selection-end-line="36" selection-end-column="208" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/react/sections/common/MenuOverlay.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/base/reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -865,7 +838,7 @@
         <state relative-caret-position="580">
           <caret line="30" column="169" lean-forward="false" selection-start-line="30" selection-start-column="169" selection-end-line="30" selection-end-column="169" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -878,20 +851,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/react/sections/common/Navbar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/react/sections/PackagesView.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -899,7 +864,7 @@
     <entry file="file://$PROJECT_DIR$/src/react/sections/common/Card.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -907,15 +872,103 @@
     <entry file="file://$PROJECT_DIR$/src/sass/components/card.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/vendor/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/base/reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/components/scrollbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Routes.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/components/sections.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="53" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react/sections/CharactersView.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/views/characters-view.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react/sections/GalleryListView.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="50" column="15" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="56" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react/sections/common/Navbar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/views/gallery-view.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/components/menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="59" lean-forward="false" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+        <state relative-caret-position="560">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>

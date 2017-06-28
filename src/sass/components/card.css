@@ -5,12 +5,10 @@
   flex-wrap: wrap;
   overflow: auto;
   max-height: 411px; }
-
-.card-row::-webkit-scrollbar-track {
-  background: transparent !important; }
-
-.card-row::-webkit-scrollbar-thumb {
-  background: #333 !important; }
+  .card-row::-webkit-scrollbar-track {
+    background: transparent !important; }
+  .card-row::-webkit-scrollbar-thumb {
+    background: #333 !important; }
 
 .card {
   max-width: 400px;
@@ -19,32 +17,23 @@
   box-shadow: 0px 2px 3px black;
   overflow: hidden;
   position: relative; }
-
-.card .card-image {
-  height: 260px;
-  width: 400px; }
-
-.card .card-image img {
-  max-width: 400px;
-  width: 100%; }
-
-.card .card-content p {
-  text-align: center; }
-
-.card.red {
-  background: #d82d2d; }
-
-.card.darkred {
-  background: #b02121; }
-
-.card.blue {
-  background: #524fff; }
-
-.card.green {
-  background: #00a950; }
-
-.card.limegreen {
-  background: #7ddd4d; }
-
-.card.orange {
-  background: #e79e43; }
+  .card .card-image {
+    height: 260px;
+    width: 400px; }
+    .card .card-image img {
+      max-width: 400px;
+      width: 100%; }
+  .card .card-content p {
+    text-align: center; }
+  .card.red {
+    background: #d82d2d; }
+  .card.darkred {
+    background: #b02121; }
+  .card.blue {
+    background: #524fff; }
+  .card.green {
+    background: #00a950; }
+  .card.limegreen {
+    background: #7ddd4d; }
+  .card.orange {
+    background: #e79e43; }

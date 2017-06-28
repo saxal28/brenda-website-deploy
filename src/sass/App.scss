@@ -3,6 +3,8 @@
 // =======================
 
 @import "base/reset.scss";
+@import "vendor/animate.css";
+
 
 // =======================
 // Components
@@ -18,9 +20,11 @@
 @import "components/card.scss";
 
 // =======================
-// Components
+// Views
 // =======================
 
-//@import "vendor/animate.css";
+@import "views/characters-view.scss";
+@import "views/gallery-view.scss";
+
 
 

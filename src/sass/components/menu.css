@@ -4,59 +4,59 @@
   top: 0;
   left: 0;
   right: 0; }
-
-.navbar .fa {
-  font-size: 2em;
-  color: lightgrey;
-  text-shadow: 1px 2px 2px #333;
-  padding: 10px;
-  cursor: pointer;
-  transition: all 400ms ease-in-out; }
-
-.navbar .fa:hover {
-  transform: rotate(-90deg); }
-
-.navbar .nav-button {
-  height: 30px;
-  width: 30px;
-  border: 5px solid white;
-  margin: 10px;
-  cursor: pointer;
-  transition: all 400ms ease-in-out; }
-
-.navbar .nav-button:hover {
-  transform: rotate(-90deg);
-  border-color: black; }
-
-.navbar .nav-links {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  padding: 20px; }
-
-.navbar .nav-links .nav-link {
-  margin-right: 10px;
-  font-family: Roboto;
-  cursor: pointer;
-  transition: all 400ms;
-  padding-bottom: 5px;
-  border-bottom: 1px solid white; }
-
-.navbar .nav-links .nav-link:hover {
-  color: lightgrey;
-  border-color: lightgrey; }
-
-.navbar .nav-links .active-link {
-  color: lightgrey;
-  border-bottom: 1px solid #524fff !important; }
-
-.navbar .nav-logo {
-  position: fixed;
-  bottom: 18px;
-  right: 10px; }
-
-.navbar .nav-logo img {
-  height: 30px; }
+  .navbar .fa {
+    font-size: 2em;
+    color: lightgrey;
+    text-shadow: 1px 2px 2px #333;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out; }
+    .navbar .fa:hover {
+      transform: rotate(-90deg); }
+  .navbar .nav-button {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background: white;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out; }
+    .navbar .nav-button .nav-line {
+      width: 5px;
+      height: 100%;
+      color: red; }
+      .navbar .nav-button .nav-line.left {
+        background: red;
+        float: left; }
+      .navbar .nav-button .nav-line.right {
+        background: blue;
+        float: right; }
+      .navbar .nav-button .nav-line:hover .left {
+        background: lime; }
+  .navbar .nav-links {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px; }
+    .navbar .nav-links .nav-link {
+      margin-right: 10px;
+      font-family: Roboto;
+      cursor: pointer;
+      transition: all 400ms;
+      padding-bottom: 5px;
+      border-bottom: 1px solid white; }
+      .navbar .nav-links .nav-link:hover {
+        color: lightgrey;
+        border-color: lightgrey; }
+    .navbar .nav-links .active-link {
+      color: lightgrey;
+      border-bottom: 1px solid #524fff !important; }
+  .navbar .nav-logo {
+    position: fixed;
+    bottom: 18px;
+    right: 10px; }
+    .navbar .nav-logo img {
+      height: 30px; }
 
 .overlay {
   z-index: 10000;

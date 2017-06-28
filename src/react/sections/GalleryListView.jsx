@@ -4,6 +4,7 @@ import _ from "lodash";
 import { observer } from "mobx-react";
 import {ImageStore} from "../../stores/ImageStore";
 import {UploadButton} from "./common/UploadButton";
+import {Card} from "./common/Card";
 
 const store = new ImageStore();
 
@@ -25,28 +26,35 @@ export default observer(class GalleryListView extends React.Component {
             x.uid = uids[index];
         })
 
-        const url = values.length > 0 ? values[0].url : "";
         console.log(values)
 
         return (
             <div>
 
-                <div className="main-section gallery-list">
-                    {/*<h1>Gallery</h1>*/}
-                    <div className="gallery-list-section">
-                        {/*<img src={url} />*/}
-                        {values && values.map(x => <img src={`${x.url}`} />)}
-                        {/*{values && values.map(x => <div className="gallery-image" style={{background:`url(${x.url})`, ...imageStyle}}/>)}*/}
-                    </div>
+                <div className="main-section gallery">
+
+                        <div className="card-row">
+
+                            {values && values.map((picture, index) => {
+                                return (
+                                    <Card
+                                        key={index}
+                                        image={picture.url}
+                                    />
+                                )
+                            })}
+
+                        </div>
+
                 </div>
 
-                <div className="footer-section">
-                    <UploadButton store={store}/>
+                {/*<div className="footer-section">*/}
+                    {/*<UploadButton store={store}/>*/}
 
-                    <form onSubmit={(e) => store.addImage(e)}>
-                    <input type="text" onChange={(e) => store.updateImage("url", e)}/>
-                    </form>
-                </div>
+                    {/*<form onSubmit={(e) => store.addImage(e)}>*/}
+                    {/*<input type="text" onChange={(e) => store.updateImage("url", e)}/>*/}
+                    {/*</form>*/}
+                {/*</div>*/}
             </div>
         )
     }

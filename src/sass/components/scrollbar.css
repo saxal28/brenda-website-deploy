@@ -2,8 +2,8 @@ body::-webkit-scrollbar {
   width: 1em; }
 
 body::-webkit-scrollbar-track {
-  background-color: lightgray; }
+  background-color: darkgrey; }
 
 body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
+  background-color: #333;
   outline: 1px solid slategrey; }

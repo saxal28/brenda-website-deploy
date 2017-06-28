@@ -1,3 +1,4 @@
+@import url(vendor/animate.css);
 body {
   margin: 0;
   padding: 0;
@@ -12,11 +13,10 @@ h1, h2, h3, .overlay-link, button, .nav-link {
 
 h1 {
   font-size: 2.2em; }
-
-h1.headline {
-  font-size: 2.6em;
-  font-weight: bold;
-  padding: 5px; }
+  h1.headline {
+    font-size: 2.6em;
+    font-weight: bold;
+    padding: 5px; }
 
 h3 {
   font-size: 1.3em;
@@ -37,59 +37,59 @@ p {
   top: 0;
   left: 0;
   right: 0; }
-
-.navbar .fa {
-  font-size: 2em;
-  color: lightgrey;
-  text-shadow: 1px 2px 2px #333;
-  padding: 10px;
-  cursor: pointer;
-  transition: all 400ms ease-in-out; }
-
-.navbar .fa:hover {
-  transform: rotate(-90deg); }
-
-.navbar .nav-button {
-  height: 30px;
-  width: 30px;
-  border: 5px solid white;
-  margin: 10px;
-  cursor: pointer;
-  transition: all 400ms ease-in-out; }
-
-.navbar .nav-button:hover {
-  transform: rotate(-90deg);
-  border-color: black; }
-
-.navbar .nav-links {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  padding: 20px; }
-
-.navbar .nav-links .nav-link {
-  margin-right: 10px;
-  font-family: Roboto;
-  cursor: pointer;
-  transition: all 400ms;
-  padding-bottom: 5px;
-  border-bottom: 1px solid white; }
-
-.navbar .nav-links .nav-link:hover {
-  color: lightgrey;
-  border-color: lightgrey; }
-
-.navbar .nav-links .active-link {
-  color: lightgrey;
-  border-bottom: 1px solid #524fff !important; }
-
-.navbar .nav-logo {
-  position: fixed;
-  bottom: 18px;
-  right: 10px; }
-
-.navbar .nav-logo img {
-  height: 30px; }
+  .navbar .fa {
+    font-size: 2em;
+    color: lightgrey;
+    text-shadow: 1px 2px 2px #333;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out; }
+    .navbar .fa:hover {
+      transform: rotate(-90deg); }
+  .navbar .nav-button {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background: white;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out; }
+    .navbar .nav-button .nav-line {
+      width: 5px;
+      height: 100%;
+      color: red; }
+      .navbar .nav-button .nav-line.left {
+        background: red;
+        float: left; }
+      .navbar .nav-button .nav-line.right {
+        background: blue;
+        float: right; }
+      .navbar .nav-button .nav-line:hover .left {
+        background: lime; }
+  .navbar .nav-links {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px; }
+    .navbar .nav-links .nav-link {
+      margin-right: 10px;
+      font-family: Roboto;
+      cursor: pointer;
+      transition: all 400ms;
+      padding-bottom: 5px;
+      border-bottom: 1px solid white; }
+      .navbar .nav-links .nav-link:hover {
+        color: lightgrey;
+        border-color: lightgrey; }
+    .navbar .nav-links .active-link {
+      color: lightgrey;
+      border-bottom: 1px solid #524fff !important; }
+  .navbar .nav-logo {
+    position: fixed;
+    bottom: 18px;
+    right: 10px; }
+    .navbar .nav-logo img {
+      height: 30px; }
 
 .overlay {
   z-index: 10000;
@@ -240,48 +240,6 @@ p {
   margin: 0 auto;
   padding: 10px 30px; }
 
-.gallery-list-section {
-  column-count: 3;
-  column-gap: 10px;
-  max-width: 1000px;
-  margin: 90px auto 30px auto; }
-
-.gallery-list-section img {
-  height: auto;
-  width: 100%;
-  margin: 10px 0 0 0;
-  cursor: pointer;
-  overflow: hidden; }
-
-.gallery-section {
-  width: 100%;
-  height: 90vh;
-  margin: 0 auto;
-  text-align: center; }
-
-.gallery-section .gallery-button {
-  position: fixed;
-  width: 100px;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  cursor: pointer; }
-
-.gallery-section .gallery-button.next {
-  top: 0;
-  bottom: 0;
-  right: 0; }
-
-.gallery-section .gallery-button.previous {
-  top: 0;
-  bottom: 0;
-  left: 0; }
-
-.gallery-section img {
-  height: 100%; }
-
 .footer-section {
   background: #524fff;
   color: white;
@@ -294,10 +252,10 @@ body::-webkit-scrollbar {
   width: 1em; }
 
 body::-webkit-scrollbar-track {
-  background-color: lightgray; }
+  background-color: darkgrey; }
 
 body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
+  background-color: #333;
   outline: 1px solid slategrey; }
 
 button {
@@ -310,11 +268,10 @@ button {
   cursor: pointer;
   margin: 5px;
   transition: 400ms all ease-in-out; }
-
-button:hover {
-  background: lightgray;
-  color: #333;
-  border-color: #333; }
+  button:hover {
+    background: lightgray;
+    color: #333;
+    border-color: #333; }
 
 .button-row {
   display: flex;
@@ -323,11 +280,10 @@ button:hover {
 
 .logo-container {
   text-align: center; }
-
-.logo-container img {
-  padding: 20px 0;
-  margin: 0 auto;
-  width: 80%; }
+  .logo-container img {
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 80%; }
 
 .parallax-container {
   height: 100vh;
@@ -346,41 +302,32 @@ button:hover {
   justify-content: center;
   align-items: center;
   background: #524fff; }
-
-.character-card:nth-of-type(1) {
-  background: #524fff; }
-
-.character-card:nth-of-type(2) {
-  background: #d82d2d; }
-
-.character-card:nth-of-type(3) {
-  background: #7ddd4d; }
-
-.character-card:nth-of-type(4) {
-  background: #e79e43; }
-
-.character-card.mobile {
-  flex-direction: column; }
-
-.character-card .character-card-content {
-  max-width: 400px;
-  width: 100%;
-  text-align: center; }
-
-.character-card .character-card-content h2 {
-  padding-bottom: 10px;
-  border-bottom: 2px solid white; }
-
-.character-card .character-card-content p {
-  padding: 10px; }
-
-.character-card .character-card-image {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  margin-right: 30px;
-  box-shadow: 6px 4px 0px white;
-  background: grey; }
+  .character-card:nth-of-type(1) {
+    background: #524fff; }
+  .character-card:nth-of-type(2) {
+    background: #d82d2d; }
+  .character-card:nth-of-type(3) {
+    background: #7ddd4d; }
+  .character-card:nth-of-type(4) {
+    background: #e79e43; }
+  .character-card.mobile {
+    flex-direction: column; }
+  .character-card .character-card-content {
+    max-width: 400px;
+    width: 100%;
+    text-align: center; }
+    .character-card .character-card-content h2 {
+      padding-bottom: 10px;
+      border-bottom: 2px solid white; }
+    .character-card .character-card-content p {
+      padding: 10px; }
+  .character-card .character-card-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+    box-shadow: 6px 4px 0px white;
+    background: grey; }
 
 .card-row {
   display: flex;
@@ -389,12 +336,10 @@ button:hover {
   flex-wrap: wrap;
   overflow: auto;
   max-height: 411px; }
-
-.card-row::-webkit-scrollbar-track {
-  background: transparent !important; }
-
-.card-row::-webkit-scrollbar-thumb {
-  background: #333 !important; }
+  .card-row::-webkit-scrollbar-track {
+    background: transparent !important; }
+  .card-row::-webkit-scrollbar-thumb {
+    background: #333 !important; }
 
 .card {
   max-width: 400px;
@@ -403,32 +348,37 @@ button:hover {
   box-shadow: 0px 2px 3px black;
   overflow: hidden;
   position: relative; }
+  .card .card-image {
+    height: 260px;
+    width: 400px; }
+    .card .card-image img {
+      max-width: 400px;
+      width: 100%; }
+  .card .card-content p {
+    text-align: center; }
+  .card.red {
+    background: #d82d2d; }
+  .card.darkred {
+    background: #b02121; }
+  .card.blue {
+    background: #524fff; }
+  .card.green {
+    background: #00a950; }
+  .card.limegreen {
+    background: #7ddd4d; }
+  .card.orange {
+    background: #e79e43; }
 
-.card .card-image {
-  height: 260px;
-  width: 400px; }
+.main-section.characters {
+  padding-top: 60px;
+  height: auto; }
+  .main-section.characters .card-row {
+    overflow: visible;
+    max-height: none; }
 
-.card .card-image img {
-  max-width: 400px;
-  width: 100%; }
-
-.card .card-content p {
-  text-align: center; }
-
-.card.red {
-  background: #d82d2d; }
-
-.card.darkred {
-  background: #b02121; }
-
-.card.blue {
-  background: #524fff; }
-
-.card.green {
-  background: #00a950; }
-
-.card.limegreen {
-  background: #7ddd4d; }
-
-.card.orange {
-  background: #e79e43; }
+.main-section.gallery {
+  padding-top: 60px;
+  height: auto; }
+  .main-section.gallery .card-row {
+    overflow: visible;
+    max-height: none; }

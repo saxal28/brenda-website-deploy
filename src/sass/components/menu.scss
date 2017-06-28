@@ -21,14 +21,30 @@
   }
 
   .nav-button {
+    position: relative;
     height: 30px;
     width: 30px;
-    border: 5px solid white;
+    //border: 5px solid white;
+    background: white;
     margin: 10px;
     cursor: pointer;
     transition: all 400ms ease-in-out;
 
-    &:hover {transform: rotate(-90deg); border-color: black}
+    .nav-line {
+      width: 5px; height: 100%; color: red;
+
+      &.left  { background: red; float: left; }
+      &.right { background: blue; float: right;}
+
+    &:hover {
+
+      .left { background: lime }
+    }
+
+
+    }
+
+    //&:hover {transform: rotate(-90deg); border-color: black }
 
   }
 
@@ -55,6 +71,7 @@
       color: lightgrey;
       border-bottom: 1px solid $blue !important;
     }
+
   }
 
   .nav-logo {
