@@ -1,0 +1,35 @@
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 80%;
+  margin: 5px auto;
+
+  h3 {
+    font: 18px Roboto;
+    text-transform: capitalize;
+    margin: 0;
+    background: $blue;
+    width: 150px;
+    padding:5.4px;
+    border-bottom: 2px solid white;
+  }
+
+  input[type=text] {
+    padding-left: 20px;
+    height: 30px;
+    width: 170px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    //border: 2px solid white;
+    //border-radius: 18px;
+
+    color: white;
+    font: 18px Roboto;
+
+  }
+
+}

@@ -354,7 +354,11 @@ button {
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0; }
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; }
     .card .card-content p {
       text-align: center; }
   .card.red {
@@ -370,6 +374,31 @@ button {
   .card.orange {
     background: #e79e43; }
 
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 5px auto; }
+  .input-container h3 {
+    font: 18px Roboto;
+    text-transform: capitalize;
+    margin: 0;
+    background: #524fff;
+    width: 150px;
+    padding: 5.4px;
+    border-bottom: 2px solid white; }
+  .input-container input[type=text] {
+    padding-left: 20px;
+    height: 30px;
+    width: 170px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font: 18px Roboto; }
+
 .main-section.characters {
   padding-top: 60px;
   height: auto; }
@@ -383,3 +412,7 @@ button {
   .main-section.gallery .card-row {
     overflow: visible;
     max-height: none; }
+
+.main-section.contact .card {
+  border: none;
+  box-shadow: none; }

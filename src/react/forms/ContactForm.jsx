@@ -1,21 +1,29 @@
-import { observable, action } from 'mobx';
+import { observable, action, extendObservable } from 'mobx';
 
 export class ContactForm {
 
    constructor() {
-       this.store = {
-           @observable firstName   : "",
-           @observable lastName    : "",
-           @observable phoneNumber : "",
-           @observable email       : "",
-       }
+
+       extendObservable(this, {
+           firstName   : "test",
+           lastName    : "",
+           phoneNumber : "",
+           email       : "",
+       })
+
    }
 
-   @action setContactInfo({field, value}) {
-       this.store[field] = value;
+   get firstName() { return this.firstName}
+   // get lastName() { return this.}
+   // get firstName() { return this[field]}
+   // get firstName() { return this[field]}
+
+   setContactInfo(field, value) {
+       console.log(field)
+       this[field] = value;
    }
 
-   @action handleSubmit(e) {
+   handleSubmit(e) {
        e.preventDefault();
 
        console.log(this.store)

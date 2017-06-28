@@ -24,7 +24,11 @@
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0; }
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; }
     .card .card-content p {
       text-align: center; }
   .card.red {
