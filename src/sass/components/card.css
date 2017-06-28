@@ -11,20 +11,22 @@
     background: #333 !important; }
 
 .card {
-  max-width: 400px;
+  width: 400px;
+  height: 300px;
   border: 1px solid white;
   margin: 5px;
   box-shadow: 0px 2px 3px black;
   overflow: hidden;
+  background-size: 100% !important;
   position: relative; }
-  .card .card-image {
-    height: 260px;
-    width: 400px; }
-    .card .card-image img {
-      max-width: 400px;
-      width: 100%; }
-  .card .card-content p {
-    text-align: center; }
+  .card .card-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+    .card .card-content p {
+      text-align: center; }
   .card.red {
     background: #d82d2d; }
   .card.darkred {

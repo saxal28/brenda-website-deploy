@@ -1,4 +1,3 @@
-@import url(vendor/animate.css);
 body {
   margin: 0;
   padding: 0;
@@ -129,7 +128,7 @@ p {
   justify-content: center;
   align-items: center;
   background-image: url("https://firebasestorage.googleapis.com/v0/b/brenda-website.appspot.com/o/19197575_10209781557711358_825897358_o.jpg?alt=media&token=e206a910-0b30-4b69-9847-0c8ef9aa935f");
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -143,7 +142,7 @@ p {
   justify-content: center;
   align-items: center;
   background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -157,7 +156,7 @@ p {
   justify-content: center;
   align-items: center;
   background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -171,7 +170,7 @@ p {
   justify-content: center;
   align-items: center;
   background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -185,7 +184,7 @@ p {
   justify-content: center;
   align-items: center;
   background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -199,7 +198,7 @@ p {
   justify-content: center;
   align-items: center;
   background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -213,7 +212,7 @@ p {
   justify-content: center;
   align-items: center;
   background-image: url("http://wallpapercave.com/wp/3Qj8SxR.jpg");
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -227,7 +226,7 @@ p {
   justify-content: center;
   align-items: center;
   background-image: url("http://wallpapercave.com/wp/3Qj8SxR.jpg");
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -342,20 +341,22 @@ button {
     background: #333 !important; }
 
 .card {
-  max-width: 400px;
+  width: 400px;
+  height: 300px;
   border: 1px solid white;
   margin: 5px;
   box-shadow: 0px 2px 3px black;
   overflow: hidden;
+  background-size: 100% !important;
   position: relative; }
-  .card .card-image {
-    height: 260px;
-    width: 400px; }
-    .card .card-image img {
-      max-width: 400px;
-      width: 100%; }
-  .card .card-content p {
-    text-align: center; }
+  .card .card-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+    .card .card-content p {
+      text-align: center; }
   .card.red {
     background: #d82d2d; }
   .card.darkred {

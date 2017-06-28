@@ -21,14 +21,9 @@ export default class Navbar extends React.Component {
 			<div className="menu">
 				<div className="navbar">
 
-					{true &&
-						<div className="nav-button" onClick={() => toggleMenuOverlay()}>
-							<div className="nav-line left" />
-							<div className="nav-line right" />
-						</div>
-					}
+					{isMobile() && <div className="nav-button" onClick={() => toggleMenuOverlay()}></div>}
 
-					{false && <div className="nav-links">
+					{!isMobile() && <div className="nav-links">
 						<NavLink className="nav-link" to="/" activeClassName="active-link" exact>Home</NavLink>
 						<NavLink className="nav-link" to="/gallery/all" activeClassName="active-link">Gallery</NavLink>
 						<NavLink className="nav-link" to="/characters" activeClassName="active-link">Characters</NavLink>
