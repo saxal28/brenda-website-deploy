@@ -1,15 +1,14 @@
 $black: #333;
-
 $transparent-black: rgba(0,0,0,0.7);
-
 $blue: #524fff;
-
+$royalblue: #378aff;
 $red: #d82d2d;
 $darkred: #b02121;
-
 $green: #00a950;
 $limegreen: #7ddd4d;
-
 $orange: #e79e43;
+
+// fades
 $orange-fade: linear-gradient(180deg,#f46d4c,#e4505d);
+$blue-fade: linear-gradient(180deg,#378aff, #524fff);
 

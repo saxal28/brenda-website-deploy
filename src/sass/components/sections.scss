@@ -5,23 +5,41 @@
 
   &.half-size { height: 10vh !important; }
 
-  &.home { @include main-section("https://firebasestorage.googleapis.com/v0/b/brenda-website.appspot.com/o/19197575_10209781557711358_825897358_o.jpg?alt=media&token=e206a910-0b30-4b69-9847-0c8ef9aa935f") }
-  &.characters { @include main-section("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");}
-  &.cast { @include main-section("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg"); }
-  &.packages { @include main-section("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg"); }
-  &.book-party { @include main-section("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg"); }
-  &.contact { @include main-section(""); background: $orange-fade }
-  &.gallery { @include main-section("http://wallpapercave.com/wp/3Qj8SxR.jpg"); }
-  &.gallery-list { @include main-section("http://wallpapercave.com/wp/3Qj8SxR.jpg"); height: auto }
+  //&.home { @include main-section("url(https://firebasestorage.googleapis.com/v0/b/brenda-website.appspot.com/o/19197575_10209781557711358_825897358_o.jpg?alt=media&token=e206a910-0b30-4b69-9847-0c8ef9aa935f") }
+  &.home {
+
+    background:url("https://firebasestorage.googleapis.com/v0/b/brenda-website.appspot.com/o/19197575_10209781557711358_825897358_o.jpg?alt=media&token=e206a910-0b30-4b69-9847-0c8ef9aa935f");
+    @include main-section("");
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: multiply;
+
+
+  }
+
+
+  &.characters { @include main-section($orange-fade);}
+  &.cast { @include main-section($orange-fade); }
+  &.packages { @include main-section($orange-fade); }
+  &.book-party { @include main-section($orange-fade); }
+  &.contact { @include main-section($orange-fade) }
+  &.gallery { @include main-section($orange-fade); }
+  &.gallery-list { @include main-section($orange-fade); height: auto }
 
 }
 
 .content-section {
 
+  @include main-section($blue-fade);
+
+  align-items: flex-end;
+  overflow: visible;
+
   .content-body {
-    max-width: 1000px;
-    margin: 0 auto;
+    float:right;
+    width: 70%;
+    //margin: 0 auto;
     padding: 10px 30px;
+    //background: orange;
   }
 
 }
@@ -54,7 +72,7 @@
 //}
 
 .footer-section {
-  background: $blue;
+  background: $blue-fade;
   color: white;
   display: flex;
   justify-content: flex-end;

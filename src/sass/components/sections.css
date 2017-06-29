@@ -2,18 +2,20 @@
   height: 10vh !important; }
 
 .main-section.home {
+  background: url("https://firebasestorage.googleapis.com/v0/b/brenda-website.appspot.com/o/19197575_10209781557711358_825897358_o.jpg?alt=media&token=e206a910-0b30-4b69-9847-0c8ef9aa935f");
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/brenda-website.appspot.com/o/19197575_10209781557711358_825897358_o.jpg?alt=media&token=e206a910-0b30-4b69-9847-0c8ef9aa935f");
-  background-color: rgba(0, 0, 0, 0.4);
+  background: "";
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply; }
 
 .main-section.characters {
   height: 100vh;
@@ -21,8 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
-  background-color: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(180deg, #f46d4c, #e4505d);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -35,8 +36,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
-  background-color: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(180deg, #f46d4c, #e4505d);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -49,8 +49,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
-  background-color: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(180deg, #f46d4c, #e4505d);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -63,8 +62,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
-  background-color: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(180deg, #f46d4c, #e4505d);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -77,14 +75,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("");
-  background-color: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(180deg, #f46d4c, #e4505d);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  position: relative;
-  background: linear-gradient(180deg, #f46d4c, #e4505d); }
+  position: relative; }
 
 .main-section.gallery {
   height: 100vh;
@@ -92,8 +88,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("http://wallpapercave.com/wp/3Qj8SxR.jpg");
-  background-color: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(180deg, #f46d4c, #e4505d);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -106,8 +101,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("http://wallpapercave.com/wp/3Qj8SxR.jpg");
-  background-color: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(180deg, #f46d4c, #e4505d);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
@@ -115,13 +109,27 @@
   position: relative;
   height: auto; }
 
-.content-section .content-body {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 10px 30px; }
+.content-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #378aff, #524fff);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-end;
+  overflow: visible; }
+  .content-section .content-body {
+    float: right;
+    width: 70%;
+    padding: 10px 30px; }
 
 .footer-section {
-  background: #524fff;
+  background: linear-gradient(180deg, #378aff, #524fff);
   color: white;
   display: flex;
   justify-content: flex-end;

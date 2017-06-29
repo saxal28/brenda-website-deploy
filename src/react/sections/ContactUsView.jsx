@@ -1,5 +1,6 @@
 import React from "react";
 import {Card} from "./common/Card";
+import {isMobile} from "../../util/mobileChecker";
 // import {ContactForm} from "../forms/ContactForm";
 // const form = new ContactForm();
 

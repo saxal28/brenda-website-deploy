@@ -1,13 +1,15 @@
 import React from 'react'
+import {isMobile} from "../../util/mobileChecker";
 
 export default class MainView extends React.Component {
 
 	render() {
+
 		return (
 			<div>
 
 				<div className="main-section home">
-					<h1 className="outlin headline">Hire A Princess!</h1>
+					<h1 className="outlin headline">Hire A Princess <br /> for Your Next Party!</h1>
 
 					<div className="button-row">
 						<button>Gallery</button>
@@ -18,12 +20,14 @@ export default class MainView extends React.Component {
 
 				<div className="content-section">
 					<div className="content-body">
-						<h1>content-section 1</h1>
+						<h1>Really Exciting Title</h1>
+						{!isMobile() && <img className="positioned-image left" src="https://firebasestorage.googleapis.com/v0/b/brenda-website.appspot.com/o/19182183_10209781595752309_1594056582_o.jpg?alt=media&token=97118fd0-a1a6-4e41-8dc9-aca1053edbcd" />}
 					</div>
 				</div>
 
 				<div className="content-section">
-					<h1>content-section 2</h1>
+					<h1>Another Exciting Title</h1>
+					<h3>Maybe more pictures... ;)</h3>
 				</div>
 
 				<div className="footer-section">
