@@ -27,7 +27,20 @@ export default class MainView extends React.Component {
 				</div>
 
 				<div className="footer-section">
-					<h4>footer info</h4>
+					<div className="footer-content">
+
+						<div className="social-media-bar">
+							<div className="facebook" />
+							<div className="twitter" />
+							<div className="instagram" />
+						</div>
+
+						<h4>Have Questions?</h4>
+						<p>Email Us At: <br /> saxal28@gmail.com</p>
+						<p>Call Us at: <br /> 555-555-5555</p>
+						<p><span className="link">Book A Party</span> with us</p>
+						<p><span className="link">Request more information</span></p>
+					</div>
 				</div>
 
 			</div>

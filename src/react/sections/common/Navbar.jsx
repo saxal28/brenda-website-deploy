@@ -21,7 +21,7 @@ export default class Navbar extends React.Component {
 			<div className="menu">
 				<div className="navbar">
 
-					{isMobile() && <div className="nav-button" onClick={() => toggleMenuOverlay()}></div>}
+					{isMobile() && <i className="fa fa-home" onClick={() => toggleMenuOverlay()}></i>}
 
 					{!isMobile() && <div className="nav-links">
 						<NavLink className="nav-link" to="/" activeClassName="active-link" exact>Home</NavLink>
@@ -33,9 +33,9 @@ export default class Navbar extends React.Component {
 						<NavLink className="nav-link" to="/contact-us" activeClassName="active-link">Contact</NavLink>
 					</div> }
 
-					<div className="nav-logo">
-						<img src="http://i.imgur.com/MhYhnGk.png" />
-					</div>
+					{/*<div className="nav-logo">*/}
+						{/*<img src="http://i.imgur.com/MhYhnGk.png" />*/}
+					{/*</div>*/}
 
 				</div>
 				<MenuOverlay visible={visible} toggleMenu={toggleMenuOverlay}/>

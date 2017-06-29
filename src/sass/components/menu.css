@@ -6,7 +6,7 @@
   right: 0; }
   .navbar .fa {
     font-size: 2em;
-    color: lightgrey;
+    color: white;
     text-shadow: 1px 2px 2px #333;
     padding: 10px;
     cursor: pointer;
@@ -44,13 +44,14 @@
       cursor: pointer;
       transition: all 400ms;
       padding-bottom: 5px;
-      border-bottom: 1px solid white; }
+      border-bottom: 3px solid white;
+      font-weight: bold; }
       .navbar .nav-links .nav-link:hover {
         color: lightgrey;
         border-color: lightgrey; }
     .navbar .nav-links .active-link {
       color: lightgrey;
-      border-bottom: 1px solid #524fff !important; }
+      border-color: #524fff !important; }
   .navbar .nav-logo {
     position: fixed;
     bottom: 18px;

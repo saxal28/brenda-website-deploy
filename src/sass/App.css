@@ -38,7 +38,7 @@ p {
   right: 0; }
   .navbar .fa {
     font-size: 2em;
-    color: lightgrey;
+    color: white;
     text-shadow: 1px 2px 2px #333;
     padding: 10px;
     cursor: pointer;
@@ -76,13 +76,14 @@ p {
       cursor: pointer;
       transition: all 400ms;
       padding-bottom: 5px;
-      border-bottom: 1px solid white; }
+      border-bottom: 3px solid white;
+      font-weight: bold; }
       .navbar .nav-links .nav-link:hover {
         color: lightgrey;
         border-color: lightgrey; }
     .navbar .nav-links .active-link {
       color: lightgrey;
-      border-bottom: 1px solid #524fff !important; }
+      border-color: #524fff !important; }
   .navbar .nav-logo {
     position: fixed;
     bottom: 18px;
@@ -197,13 +198,14 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/brenda-website.appspot.com/o/19197575_10209781557711358_825897358_o.jpg?alt=media&token=e206a910-0b30-4b69-9847-0c8ef9aa935f");
+  background-image: url("");
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  background: linear-gradient(180deg, #f46d4c, #e4505d); }
 
 .main-section.gallery {
   height: 100vh;
@@ -243,9 +245,14 @@ p {
   background: #524fff;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   height: 50vh; }
+  .footer-section .footer-content {
+    text-align: right;
+    padding-right: 10px; }
+    .footer-section .footer-content p {
+      text-align: right; }
 
 body::-webkit-scrollbar {
   width: 1em; }
@@ -262,7 +269,7 @@ button {
   font-size: 1.2em;
   padding: 12px 24px;
   border: 2px solid white;
-  background-color: rgba(0, 0, 0, 0.1);
+  background: transparent;
   outline: none;
   cursor: pointer;
   margin: 5px;
@@ -270,7 +277,7 @@ button {
   button:hover {
     background: lightgray;
     color: #333;
-    border-color: #333; }
+    border-color: lightgrey; }
 
 .button-row {
   display: flex;
@@ -386,7 +393,7 @@ button {
     margin: 0;
     background: #524fff;
     width: 150px;
-    padding: 5.4px;
+    padding: 5.45px;
     border-bottom: 2px solid white; }
   .input-container input[type=text] {
     padding-left: 20px;
@@ -398,20 +405,6 @@ button {
     border-bottom: 2px solid white;
     color: white;
     font: 18px Roboto; }
-
-.main-section.characters {
-  padding-top: 60px;
-  height: auto; }
-  .main-section.characters .card-row {
-    overflow: visible;
-    max-height: none; }
-
-.main-section.gallery {
-  padding-top: 60px;
-  height: auto; }
-  .main-section.gallery .card-row {
-    overflow: visible;
-    max-height: none; }
 
 .main-section.contact .card {
   border: none;

@@ -77,13 +77,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/brenda-website.appspot.com/o/19197575_10209781557711358_825897358_o.jpg?alt=media&token=e206a910-0b30-4b69-9847-0c8ef9aa935f");
+  background-image: url("");
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  background: linear-gradient(180deg, #f46d4c, #e4505d); }
 
 .main-section.gallery {
   height: 100vh;
@@ -123,6 +124,11 @@
   background: #524fff;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   height: 50vh; }
+  .footer-section .footer-content {
+    text-align: right;
+    padding-right: 10px; }
+    .footer-section .footer-content p {
+      text-align: right; }
